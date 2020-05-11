@@ -21,6 +21,7 @@
         width: 100%;
         background-color: white;
         ul{
+            list-style-type: none;
             display: flex;  //"弹性布局"，用来为盒状模型提供最大的灵活性。
             li{
                 flex:1;
