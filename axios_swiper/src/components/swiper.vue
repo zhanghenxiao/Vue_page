@@ -1,77 +1,39 @@
 <template>
     <div class='swiper-container'>  
             <div class='swiper-wrapper'>
-            <div class="swiper-slide">
-                <slot></slot>
+                <!-- <slot></slot> -->
+                <div class="swiper-slide"> <img src="@/assets/1.jpg" alt="1.jpg"></div>
+                <div class="swiper-slide"> <img src="@/assets/2.jpg" alt="2.jpg"></div>
+                <div class="swiper-slide"> <img src="@/assets/3.jpg" alt="3.jpg"></div>
+                <div class="swiper-slide"> <img src="@/assets/4.jpg" alt="4.jpg"></div>
             </div>
+            <!-- 这是分页器 -->
             <div class="swiper-pagination"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-scrollbar"></div>
-            </div>
     </div>
 </template>
 
 <script>
-import Swiper from 'swiper'
-// 注意导入文件swiper 的路劲。。。
-import 'swiper/css/swiper.min.css'
-// import 'swiper/dist/css/swiper.min.css'
+import Swiper from 'swiper' //js文件
+// 注意导入文件swiper 的路劲在node_modules中。。。
+import 'swiper/css/swiper.min.css'  //css文件
 export default {
   mounted() {
    new Swiper('.swiper-container', {
-      autoplay: true,    //自动播放
-      loop: true,        //循环播放
-      delay: 3000,       //每张图间隔三秒
+     autoplay: true,    //自动播放
+     loop: true,        //循环播放
+     delay: 500,       //每张图间隔秒
       //分页器
       pagination: {
         el: ".swiper-pagination"
       },
-      //左右前进后退按钮
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev"
-      }
     });
-  },
-    // mounted() {
-    //     new Swiper('.ditle',{
-    //         autoplay: true,    //自动播放
-    //         loop:true,  //循环播放
-    //         freeMode: true,
-    //         delay: 3000,       //每张图间隔三秒
-    //         // 这是分页器的一个初始化，使用时才初始化
-    //         pagination:{
-    //             el: '.swiper-pagination',
-    //         },
-    //         //左右前进后退按钮
-    //         navigation: {
-    //             nextEl: ".swiper-button-next",
-    //             prevEl: ".swiper-button-prev"
-    //         }
-    //     })
-    // }
-
-    // name : "cookie_swiper",
-    // data() {
-    //     return {
-            
-    //     }
-    // },
-
+  }, 
 }
 </script>
 
 
 <style lang="scss" scoped>
-.swiper-slide {
+.swiper-slide img{
         width: 100%;
-        height: 100%;
-        box-sizing: border-box;
-        // padding: 0 0.8rem;
-        img {
-          width: 100%;
-          height: 100%;
-        }
-      }
+        height: 30%;}
 </style>
