@@ -2,24 +2,26 @@
   <div>
     this is app vue<hr>
     <!-- <img src="@/assets/1.jpg" alt="1.jpg"> -->
-    <swiper> 
-    </swiper>
     <router-view></router-view>
     <tabber></tabber>
+    <cinema></cinema>
+
   </div>
 </template>
 
 <script>
-import swiper from '@/components/swiper'
+
 import tabber from '@/components/tabber'
+import cinema from '@/views/Cinema'
 export default {
-  data() {
+  data() { 
     return {
     }
   },
   components:{
-    swiper,
-    tabber
+    tabber,
+    cinema
+  
   }
 }
 </script>

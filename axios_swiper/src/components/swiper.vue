@@ -2,10 +2,10 @@
     <div class='swiper-container'>  
             <div class='swiper-wrapper'>
                 <!-- <slot></slot> -->
-                <div class="swiper-slide"> <img src="@/assets/1.jpg" alt="1.jpg"></div>
-                <div class="swiper-slide"> <img src="@/assets/2.jpg" alt="2.jpg"></div>
-                <div class="swiper-slide"> <img src="@/assets/3.jpg" alt="3.jpg"></div>
-                <div class="swiper-slide"> <img src="@/assets/4.jpg" alt="4.jpg"></div>
+                <div class="swiper-slide"> <img src="@/assets/5.jpg" alt="5.jpg"></div>
+                <div class="swiper-slide"> <img src="@/assets/6.jpg" alt="6.jpg"></div>
+                <div class="swiper-slide"> <img src="@/assets/7.jpg" alt="7.jpg"></div>
+                <div class="swiper-slide"> <img src="@/assets/8.jpg" alt="8.jpg"></div>
             </div>
             <!-- 这是分页器 -->
             <div class="swiper-pagination"></div>
