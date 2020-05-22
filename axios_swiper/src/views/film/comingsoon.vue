@@ -1,5 +1,23 @@
 <template>
     <div>
-        this is 正在编写plan
+        <readjson></readjson>
     </div>
 </template>
+
+<script>
+import readjson from '@/views/film/readejson'
+export default {
+    data() {
+        return {
+            
+        }
+    },
+    components:{
+        readjson
+    }
+}
+</script>
+
+<style>
+
+</style>

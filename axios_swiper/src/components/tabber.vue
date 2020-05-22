@@ -4,8 +4,8 @@
         
         <ul>
             <router-link to="/film" tag="li" activeClass="active">测试报告</router-link>
-            <router-link to="/center" tag="li" activeClass="active">LATTE介绍</router-link>
-            <router-link to="/cinema" tag="li" activeClass="active">问答社区</router-link>
+            <router-link to="/cinema" tag="li" activeClass="active">LATTE介绍</router-link>
+            <router-link to="/center" tag="li" activeClass="active">问答社区</router-link>
         </ul>
     </div>
 </template>

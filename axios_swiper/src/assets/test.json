@@ -1,0 +1,108 @@
+[{
+    "id": "TimeDuration",
+    "explain" :"client.py下的一个类，用来描述程序执行时间，时间单位为 ms 毫秒",
+    "use":"引用,from vis_client.client import TimeDuration,使用,p = api.wait_image(env.img1, duration=60*TimeDuration.Second),# 不限时间,TimeDuration.Forever =-1,# 1毫秒TimeDuration.MilliSecond = 1# 1秒,TimeDuration.Second = 1000,# 1分钟,TimeDuration.Minute = 60000"
+  },
+  {
+    "id": "api",
+    "explain" :"给latte project提供api的类，我们用的api方法都来自这里",
+    "use":"# 实例化,api = VisClientApi(server的地址和端口),api = VisClientApi('http://localhost:8080'),# 使用api.find_image(image_path),api.click_keys('win')"
+  },
+  {
+    "id": "HID",
+    "explain" :"发送指令到STM32单片机",
+    "use":"# 重启HID，hid_command('{16,1}')"    
+    },
+    {
+    "id": 4,
+    "planname": "dock",
+    "author": "min",
+    "schedule" : "90",
+    "explain" :"这个文件吉奥尔珀请叫我你娶我呢亲我看我去了请问键盘就额外全额完全你亲亲我,即日起为进入邱琦雯请问可否请问"
+    },
+    {
+      "id": 5,
+      "planname": "softpaq",
+      "author": "cookie",
+      "schedule" : "20",
+      "explain" :"这个文件吉奥尔珀请叫我你娶我呢亲我看我去了请问键盘就额外全额完全你亲亲我,即日起为进入邱琦雯请问可否请问"          
+    },
+    {
+      "id": 6,
+      "planname": "dock",
+      "author": "min",
+      "schedule" : "90",
+      "explain" :"这个文件吉奥尔珀请叫我你娶我呢亲我看我去了请问键盘就额外全额完全你亲亲我,即日起为进入邱琦雯请问可否请问"
+    },
+    {
+      "id": 7,
+      "planname": "softpaq",
+      "author": "cookie",
+      "schedule" : "20",
+      "explain" :"这个文件吉奥尔珀请叫我你娶我呢亲我看我去了请问键盘就额外全额完全你亲亲我,即日起为进入邱琦雯请问可否请问"          
+      },
+      {
+      "id": 4,
+      "planname": "dock",
+      "author": "min",
+      "schedule" : "90",
+      "explain" :"这个文件吉奥尔珀请叫我你娶我呢亲我看我去了请问键盘就额外全额完全你亲亲我,即日起为进入邱琦雯请问可否请问"
+      },
+      {
+        "id": 1,
+        "planname": "softpaq",
+        "author": "cookie",
+        "schedule" : "20",
+        "explain" :"这个文件吉奥尔珀请叫我你娶我呢亲我看我去了请问键盘就额外全额完全你亲亲我,即日起为进入邱琦雯请问可否请问"          
+      },
+      {
+        "id": 2,
+        "planname": "dock",
+        "author": "min",
+        "schedule" : "90",
+        "explain" :"这个文件吉奥尔珀请叫我你娶我呢亲我看我去了请问键盘就额外全额完全你亲亲我,即日起为进入邱琦雯请问可否请问"
+      },
+      {
+        "id": 3,
+        "planname": "softpaq",
+        "author": "cookie",
+        "schedule" : "20",
+        "explain" :"这个文件吉奥尔珀请叫我你娶我呢亲我看我去了请问键盘就额外全额完全你亲亲我,即日起为进入邱琦雯请问可否请问"          
+        },
+        {
+        "id": 4,
+        "planname": "dock",
+        "author": "min",
+        "schedule" : "90",
+        "explain" :"这个文件吉奥尔珀请叫我你娶我呢亲我看我去了请问键盘就额外全额完全你亲亲我,即日起为进入邱琦雯请问可否请问"
+        },
+        {
+          "id": 1,
+          "planname": "softpaq",
+          "author": "cookie",
+          "schedule" : "20",
+          "explain" :"这个文件吉奥尔珀请叫我你娶我呢亲我看我去了请问键盘就额外全额完全你亲亲我,即日起为进入邱琦雯请问可否请问"          
+        },
+        {
+          "id": 2,
+          "planname": "dock",
+          "author": "min",
+          "schedule" : "90",
+          "explain" :"这个文件吉奥尔珀请叫我你娶我呢亲我看我去了请问键盘就额外全额完全你亲亲我,即日起为进入邱琦雯请问可否请问"
+        },
+        {
+          "id": 3,
+          "planname": "softpaq",
+          "author": "cookie",
+          "schedule" : "20",
+          "explain" :"这个文件吉奥尔珀请叫我你娶我呢亲我看我去了请问键盘就额外全额完全你亲亲我,即日起为进入邱琦雯请问可否请问"          
+          },
+          {
+          "id": 4,
+          "planname": "dock",
+          "author": "min",
+          "schedule" : "90",
+          "explain" :"这个文件吉奥尔珀请叫我你娶我呢亲我看我去了请问键盘就额外全额完全你亲亲我,即日起为进入邱琦雯请问可否请问"
+          }
+    ]
+  

@@ -24,7 +24,7 @@ import tableDate from '@/assets/finishplan.js';
 import plan from '@/assets/plan.json' 
 // 导入 css
 import 'vue-easytable/libs/themes-base/index.css'
-// 导入 table 组件 和分页组件
+// 导入 table 组件 和分页组件,也需要注册组件才能使用
 import {VTable,VPagination} from 'vue-easytable'
 
 export default {
@@ -51,7 +51,7 @@ export default {
                     {
                         field: "planname",
                         title: "测试报告",
-                        width: 200,
+                        width: 300,
                         columnAlign: "left",
                     },
  
